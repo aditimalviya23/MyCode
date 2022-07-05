@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: -10;
+}
+#regformbox{
+	border-radius: 50px;
+}
+.regh1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+.form-label{
+	font-size: 1rem;
+}
+#loginimg{
+	background-image: url(https://img.freepik.com/free-photo/positive-delighted-bearded-man-appealing-you-points-fingers-makes-good-choice-has-funny-joyful-expression-chooses-someone-shows-its-up-you-gesture-picks-potential-client_273609-42154.jpg?size=626&ext=jpg&ga=GA1.2.935715631.1655362065);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loginmaindiv{
+  position: relative;
+	
+	height: 755px;
+}
+#loginformbox{
+	height: 750px;	
+}
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+    padding-right: 1rem;
+  border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  border-radius: .25rem;
+}
+.homemaindiv{
+	background-image: url(https://img.freepik.com/free-photo/man-orange-glasses-holds-pineapple-his-head-laughs-woman-bright-dress-sunglasses-is-drinking-cocktail_197531-27442.jpg?t=st=1656912627~exp=1656913227~hmac=d317481caa1e3d397af91a2d457b89d98620178ea87419d5aa8e9930bf035f51&w=900);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+	position: relative;
+	z-index: -1;
+	text-align: center;
+}
+.homemaindiv::before{
+	content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -1 ;
+}
+#titlep{
+	color: white;
+	padding-top: 80px;
+}
+.cosmos{
+	margin-top:0px;
+	font-size: 15rem;
+	color: white;
+	text-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+    z-index: +2;
+}
+.enter{
+	color: black;
+}
+#navh{
+   background-color: black;
+}
+
+
+
